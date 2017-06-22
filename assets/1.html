@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="style.css" rel="stylesheet">
+
+
+<link href="bootstrap.min.css" rel="stylesheet">
+<script src="jquery-1.11.1.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script type="text/javascript">  
+		window.onload = function(){
+			try{
+				var data = eval("("+jsobj.jsontohtml()+")"); 
+				for(var p in data){
+					var obj = document.getElementById(p);
+					if(obj){
+						obj.innerHTML = data[p];
+					}
+				}
+				//下面使用each进行遍历  
+			} catch (e){
+				alert(e.message);
+			}
+		}
+    </script>
+</head>
+<body>
+
+
+<div class="row">
+        <div class="span12">
+          <!-- WORD PAGES HERE -->
+          <!-- <div class="word-page"><div class="word-content">WORD CONTENT HERE</div></div> -->
+          <div class="word-page">
+            <div class="word-content">
+              <!-- WORD CENTENT HERE -->
+            <div id="1" class="scroll-page"><div class="page-break-before"></div>
+<p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:18.0pt;font-family:宋体;color:black">交通运输行政强制措施扣押清单</span></b></p>
+
+<p class="MsoNormal" align="right" style="text-align:right;line-height:22.0pt;
+word-break:break-all"><span lang="EN-US" style="font-size:12.0pt;font-family:
+宋体">&nbsp;</span><span style="font-size:14.0pt;font-family:仿宋_GB2312">案号：<u><span lang="EN-US" id="anhao"></span></u>罚（<span style="color:black">强措）</span>〔<span lang="EN-US" id="qiangcuo"></span>〕<u><span lang="EN-US" id="xhao"></span></u>号</span><span lang="EN-US" style="font-size:12.0pt;font-family:宋体"> </span></p>
+
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none">
+ <tbody><tr style="page-break-inside:avoid;height:33.05pt">
+  <td width="30" rowspan="5" style="width:22.8pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:33.05pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:12.0pt;font-family:宋体">当事人</span></p>
+  </td>
+  <td width="78" rowspan="2" style="width:58.15pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:33.05pt">
+  <p class="MsoNormal" align="center" style="text-align:center;line-height:150%"><span style="font-size:12.0pt;line-height:150%;font-family:宋体">公<span lang="EN-US">&nbsp; </span>民</span></p>
+  </td>
+  <td width="84" style="width:63.0pt;border:solid windowtext 1.0pt;border-left:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:33.05pt">
+  <p class="MsoNormal" style="line-height:15.0pt"><span style="font-size:12.0pt;
+  font-family:宋体">姓 　 名</span></p>
+  </td>
+  <td width="156" style="width:117.05pt;border:solid windowtext 1.0pt;border-left:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:33.05pt">
+  <p class="MsoNormal" style=""><span lang="EN-US" style="font-size:12.0pt;font-family:宋体" id="dName"></span></p>
+  </td>
+  <td width="96" style="width:72.0pt;border:solid windowtext 1.0pt;border-left:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:33.05pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:12.0pt;font-family:宋体">身份证号码</span></p>
+  </td>
+  <td width="139" style="width:104.45pt;border:solid windowtext 1.0pt;border-left:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:33.05pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:宋体" id="dIdCard"></span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:30.6pt">
+  <td width="84" style="width:63.0pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:30.6pt">
+  <p class="MsoNormal" style="line-height:15.0pt"><span style="font-size:12.0pt;
+  font-family:宋体">住 　 址</span></p>
+  </td>
+  <td width="156" style="width:117.05pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:30.6pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:宋体" id="dAdress"></span></p>
+  </td>
+  <td width="96" style="width:72.0pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:30.6pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:宋体">&nbsp;</span><span style="font-size:12.0pt;font-family:宋体">联系电话</span></p>
+  </td>
+  <td width="139" style="width:104.45pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:30.6pt">
+  <p class="MsoNormal"><span lang="EN-US" id="dPhone"></span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:22.7pt">
+  <td width="78" rowspan="3" style="width:58.15pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt">
+  <p class="MsoNormal" align="center" style="text-align:center;line-height:150%"><span style="font-size:12.0pt;line-height:150%;font-family:宋体;letter-spacing:-1.0pt">法人或者</span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;line-height:150%"><span style="font-size:12.0pt;line-height:150%;font-family:宋体;letter-spacing:-1.0pt">其他组织</span></p>
+  </td>
+  <td width="84" style="width:63.0pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:22.7pt">
+  <p class="MsoNormal" style="line-height:15.0pt"><span style="font-size:12.0pt;
+  font-family:宋体">名 　 称</span></p>
+  </td>
+  <td width="391" colspan="3" style="width:293.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt">
+  <p class="MsoNormal"><span lang="EN-US" id="fName"></span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:22.7pt">
+  <td width="84" style="width:63.0pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:22.7pt">
+  <p class="MsoNormal" style="line-height:15.0pt"><span style="font-size:12.0pt;
+  font-family:宋体">地　　址</span></p>
+  </td>
+  <td width="391" colspan="3" style="width:293.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt">
+  <p class="MsoNormal"><span lang="EN-US" id="fAdress"></span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:22.7pt">
+  <td width="84" style="width:63.0pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:22.7pt">
+  <p class="MsoNormal" style="line-height:15.0pt"><span style="font-size:12.0pt;
+  font-family:宋体">联系电话</span></p>
+  </td>
+  <td width="156" style="width:117.05pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:宋体" id="fPhone"></span></p>
+  </td>
+  <td width="96" style="width:72.0pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:22.7pt">
+  <p class="MsoNormal" style="line-height:15.0pt"><span style="font-size:12.0pt;
+  font-family:宋体">法定代表人</span></p>
+  </td>
+  <td width="139" style="width:104.45pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:宋体" id="fDPersion"></span></p>
+  </td>
+ </tr>
+</tbody></table></div><div id="2" class="scroll-page"><p class="MsoNormal" style="line-height:20.0pt"><span lang="EN-US" style="font-size:12.0pt;font-family:宋体">&nbsp;</span></p>
+
+<p class="MsoNormal" style="line-height:20.0pt"><span style="font-size:12.0pt;font-family:宋体">因当事人<u><span lang="EN-US">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u></span></p>
+
+<p class="MsoNormal" style="line-height:20.0pt"><span style="font-size:12.0pt;
+font-family:宋体">一案，本机关对<u><span lang="EN-US">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u>实施了<u><span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u></span></p>
+
+<p class="MsoNormal" style="line-height:20.0pt"><u><span lang="EN-US" style="font-size:12.0pt;font-family:宋体">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span style="font-size:12.0pt;font-family:宋体">　　<span lang="EN-US">&nbsp; </span>　　　<span lang="EN-US">&nbsp; </span>　<span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></u><span style="font-size:12.0pt;font-family:宋体">的行政强制措施，期限为<u><span lang="EN-US">&nbsp; &nbsp;&nbsp;&nbsp;</span></u>日，扣押车（船）等财物清单如下：</span></p>
+
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" align="left" style="border-collapse:collapse;border:none;margin-right:
+ 6.75pt">
+ <tbody><tr>
+  <td width="48" style="width:36.0pt;border:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center;line-height:24.0pt"><span style="font-size:12.0pt;font-family:宋体">序号</span></p>
+  </td>
+  <td width="168" style="width:126.0pt;border:solid windowtext 1.0pt;border-left:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center;line-height:24.0pt"><span style="font-size:12.0pt;font-family:宋体;letter-spacing:2.0pt">扣押物品名称</span></p>
+  </td>
+  <td width="156" style="width:117.0pt;border:solid windowtext 1.0pt;border-left:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center;line-height:24.0pt"><span style="font-size:12.0pt;font-family:宋体">规<span lang="EN-US">&nbsp;&nbsp;&nbsp; </span>格</span></p>
+  </td>
+  <td width="60" style="width:45.0pt;border:solid windowtext 1.0pt;border-left:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center;line-height:24.0pt"><span style="font-size:12.0pt;font-family:宋体">数 量</span></p>
+  </td>
+  <td width="144" style="width:108.0pt;border:solid windowtext 1.0pt;border-left:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center;line-height:24.0pt"><span style="font-size:12.0pt;font-family:宋体">备<span lang="EN-US">&nbsp;&nbsp; </span>注</span></p>
+  </td>
+ </tr>
+ <tr style="height:26.0pt">
+  <td width="48" style="width:36.0pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:26.0pt">
+  <p class="MsoNormal" align="center" style="text-align:center;line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="168" style="width:126.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:26.0pt">
+  <p class="MsoNormal" align="center" style="text-align:center;line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="156" style="width:117.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:26.0pt">
+  <p class="MsoNormal" align="center" style="text-align:center;line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="60" style="width:45.0pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:26.0pt">
+  <p class="MsoNormal" align="center" style="text-align:center;line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="144" valign="top" style="width:108.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:26.0pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="48" valign="top" style="width:36.0pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="168" valign="top" style="width:126.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="156" valign="top" style="width:117.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="60" valign="top" style="width:45.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="144" valign="top" style="width:108.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="48" valign="top" style="width:36.0pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="168" valign="top" style="width:126.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="156" valign="top" style="width:117.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="60" valign="top" style="width:45.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="144" valign="top" style="width:108.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="48" valign="top" style="width:36.0pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="168" valign="top" style="width:126.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="156" valign="top" style="width:117.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="60" valign="top" style="width:45.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="144" valign="top" style="width:108.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="48" valign="top" style="width:36.0pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="168" valign="top" style="width:126.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="156" valign="top" style="width:117.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="60" valign="top" style="width:45.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+  <td width="144" valign="top" style="width:108.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="line-height:150%"><span lang="EN-US" style="font-size:12.0pt;line-height:150%;font-family:宋体">&nbsp;</span></p>
+  </td>
+ </tr>
+</tbody></table></div><div id="3" class="scroll-page"><p class="MsoNormal" style="line-height:20.0pt"><span lang="EN-US" style="font-size:12.0pt;font-family:宋体">&nbsp;</span></p>
+
+<p class="MsoNormal" style="line-height:22.0pt"><span style="font-size:12.0pt;font-family:宋体">其他说明：<u><span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u></span></p>
+
+<p class="MsoNormal" style="line-height:22.0pt"><u><span lang="EN-US" style="font-size:12.0pt;font-family:宋体">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u></p>
+
+<p class="MsoNormal" style="line-height:22.0pt"><span style="font-size:12.0pt;
+font-family:宋体">执法人员签名：<u><span lang="EN-US">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span lang="EN-US">&nbsp;&nbsp;</span>执法证号：<u> <span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u></span></p>
+
+<p class="MsoNormal" style="line-height:22.0pt"><span lang="EN-US" style="font-size:12.0pt;font-family:宋体">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u></span><u><span style="font-size:12.0pt;font-family:宋体">　<span lang="EN-US">&nbsp;&nbsp; </span></span></u><span lang="EN-US" style="font-size:12.0pt;font-family:宋体">&nbsp;&nbsp;</span><span style="font-size:12.0pt;font-family:宋体">执法证号：<u> <span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u></span></p>
+
+<p class="MsoNormal" style="line-height:22.0pt"><span style="font-size:12.0pt;
+font-family:宋体">当事人（或代理人）签名：<u><span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:22.0pt"><span lang="EN-US" style="font-size:12.0pt;font-family:宋体">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style="font-size:12.0pt;font-family:宋体">交通运输行政执法机关（印章）</span></p>
+
+<p class="MsoNormal" style="line-height:22.0pt"><span lang="EN-US" style="font-size:12.0pt;font-family:宋体">2012</span><span style="font-size:12.0pt;font-family:宋体">年<span lang="EN-US"> 02</span>月<span lang="EN-US">27</span>日</span></p>
+
+<p class="MsoNormal" style="line-height:26.0pt"><span style="font-size:14.0pt;
+font-family:仿宋_GB2312">（本文书一式两份：一份存根，一份交当事人或其代理人。）</span></p>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-size:14.0pt;font-family:宋体">&nbsp;</span></p>
+
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p></div></div>
+          </div>
+        </div><!--/span-->
+      <a id="next" href="/view/vDjlLxw.json?start=2&amp;size=5&amp;type=undefined"></a></div>
+
+</body>
+
+<script>
+//input 自动伸缩
+function checkLength(which) {
+	var length = lenFor(which.value);
+	which.style.width=((length+1)*7)+"pt";
+}
+
+function lenFor(str){
+	　　var byteLen=0,len=str.length;
+	　　if(str){
+	　　　　for(var i=0; i<len; i++){
+	　　　　　　if(str.charCodeAt(i)>255){
+	　　　　　　　　byteLen += 2;
+	　　　　　　}
+	　　　　　　else{
+	　　　　　　　　byteLen++;
+	　　　　　　}
+	　　　　}
+	　　　　return byteLen;
+	　　}
+	　　else{
+	　　　　return 0;
+	　　}
+	}
+</script>
+<style>
+#xiaLine {
+	outline: 0px;
+	border: 0px;
+	border-bottom: 1px solid;
+	border-radius: 0px;
+	box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075);
+}
+
+#noLine {
+	outline: 0px;
+	border: 0px;
+	border-radius: 0px;
+	box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075);
+}
+</style>
+</html>

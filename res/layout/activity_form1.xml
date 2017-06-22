@@ -1,0 +1,113 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.snapshotactivity.Form1Activity" >
+
+    <!-- Login form -->
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            style="@style/LoginFormContainer"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/anhao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="案号"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/xfa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="_罚"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/qiangcuo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="强措"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/xhao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="_号"
+                android:singleLine="true" />
+            
+            <TextView
+		       android:layout_width="wrap_content"
+		       android:layout_height="30dip"
+		       android:gravity="center_vertical"
+		       android:text="公民"/>
+            <EditText
+                android:id="@+id/dName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="公民姓名"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/dIdCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="公民身份证号"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/dAdress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="公民住址"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/dPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="公民联系电话"
+                android:singleLine="true" />
+            
+            <TextView
+		       android:layout_width="wrap_content"
+		       android:layout_height="30dip"
+		       android:gravity="center_vertical"
+		       android:text="法人"/>
+            <EditText
+                android:id="@+id/fName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="法人名称"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/fAdress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="法人地址"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/fPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="法人联系电话"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/fDPersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="法定代表人"
+                android:singleLine="true" />
+           
+            <Button
+                android:id="@+id/btnPrint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="打印" />
+        </LinearLayout>
+    </ScrollView>
+
+</merge>
